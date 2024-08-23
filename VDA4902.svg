@@ -62,7 +62,7 @@
       {{BRUTTO_WEIGHT}}
     </text><text x="179" y="42" font-size="6.35">
       {{PACKAGES_COUNT}}
-    </text><text x="5" y="65" font-size="12.7">
+    </text><text x="5" y="60" font-size="12.7">
       {{CUSTOMER_ITEM_NR}}
     </text><text x="22" y="87" font-size="13">
       {{QUANTITY}}
