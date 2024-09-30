@@ -1,9 +1,9 @@
 [
     {
         "key": "LABEL_NR",
-        "position": { "x": 5, "y": 110 },
+        "position": { "x": 5, "y": 10 },
         "options": {
-            "height": 50,
+            "height": 30,
             "displayValue": false,
             "format": "CODE39",
             "lineColor": "#000",
