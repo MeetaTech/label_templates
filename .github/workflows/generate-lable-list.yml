@@ -20,7 +20,7 @@ jobs:
       - name: Generate template list
         run: |
           dirs=$(find . -maxdepth 1 -type d ! -name 'Basistemplate' ! -name '.git' ! -name '.github' ! -name '.' | sed 's|./||')
-          echo "{\"templates\": [$(echo $dirs | tr ' ' ', ' | sed 's/\([^, ]\+\)/\"\1\"/g')]}" > lemplates.json
+          echo "{\"templates\": [$(echo $dirs | tr ' ' ', ' | sed 's/\([^, ]\+\)/\"\1\"/g')]}" > templates.json
 
 
       - name: Commit and push the JSON file
