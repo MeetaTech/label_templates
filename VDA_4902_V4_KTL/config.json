@@ -1,7 +1,7 @@
 [
     {
         "key": "LABEL_NR",
-        "position": { "x": 5, "y": 130 },
+        "position": { "x": 200, "y": 10 },
         "options": {
             "height": 30,
             "displayValue": false,
