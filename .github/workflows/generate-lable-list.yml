@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # Ermöglicht manuelles Ausführen der Action
+  workflow_dispatch:
 
 jobs:
   generate-dir-list:
@@ -17,12 +17,12 @@ jobs:
       - name: Generate directory list
         run: |
           dirs=$(find . -maxdepth 1 -type d ! -name 'basistemplete' ! -name '.' | sed 's|./||')
-          echo "{\"lables\": [\"$(echo $dirs | tr ' ' '\", \"')\"]}" > directories.json
+          echo "{\"lables\": [\"$(echo $dirs | tr ' ' '\", \"')\"]}" > labels.json
 
       - name: Commit and push the JSON file
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add directories.json
+          git add labels.json
           git commit -m 'Add updated directory list'
           git push
