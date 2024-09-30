@@ -1,0 +1,28 @@
+name: Generate Directory List
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Ermöglicht manuelles Ausführen der Action
+
+jobs:
+  generate-dir-list:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate directory list
+        run: |
+          dirs=$(find . -maxdepth 1 -type d ! -name 'basistemplete' ! -name '.' | sed 's|./||')
+          echo "{\"lables\": [\"$(echo $dirs | tr ' ' '\", \"')\"]}" > directories.json
+
+      - name: Commit and push the JSON file
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add directories.json
+          git commit -m 'Add updated directory list'
+          git push
