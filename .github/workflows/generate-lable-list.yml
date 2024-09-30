@@ -19,8 +19,9 @@ jobs:
 
       - name: Generate directory list
         run: |
-          dirs=$(find . -maxdepth 1 -type d ! -name 'Basistemplete' ! -name '.git' ! -name '.github' ! -name '.' | sed 's|./||')
-          echo "{\"lables\": [\"$(echo $dirs | tr ' ' '\", \"')\"]}" > labels.json
+          dirs=$(find . -maxdepth 1 -type d ! -name 'Basistemplate' ! -name '.git' ! -name '.github' ! -name '.' | sed 's|./||')
+          echo "{\"labels\": [$(echo $dirs | tr ' ' ', ' | sed 's/\([^, ]\+\)/\"\1\"/g')]}" > labels.json
+
 
       - name: Commit and push the JSON file
         run: |
