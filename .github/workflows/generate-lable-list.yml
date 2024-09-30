@@ -1,4 +1,4 @@
-name: Generate Directory List
+name: Generate Template List
 
 on:
   push:
@@ -17,16 +17,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate directory list
+      - name: Generate template list
         run: |
           dirs=$(find . -maxdepth 1 -type d ! -name 'Basistemplate' ! -name '.git' ! -name '.github' ! -name '.' | sed 's|./||')
-          echo "{\"labels\": [$(echo $dirs | tr ' ' ', ' | sed 's/\([^, ]\+\)/\"\1\"/g')]}" > labels.json
+          echo "{\"templates\": [$(echo $dirs | tr ' ' ', ' | sed 's/\([^, ]\+\)/\"\1\"/g')]}" > lemplates.json
 
 
       - name: Commit and push the JSON file
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add labels.json
-          git commit -m 'Add updated directory list'
+          git add templates.json
+          git commit -m 'Add updated template list'
           git push
