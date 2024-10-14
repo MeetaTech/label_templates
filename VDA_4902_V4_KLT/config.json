@@ -1,114 +1,114 @@
 [
-			{
-				key: 'LABEL_NR',
-				position: {
-					x: 5,
-					y: 21
-				},
-				options: {
-					height: 7,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'CUSTOMER_ITEM_NR',
-				position: {
-					x: 5,
-					y: 51
-				},
-				options: {
-					height: 7,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'QUANTITY',
-				position: {
-					x: 5,
-					y: 36
-				},
-				options: {
-					height: 7,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'SUPPLIER_NR',
-				position: {
-					x: 110,
-					y: 43
-				},
-				options: {
-					height: 7,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'PACKAGE_NR',
-				position: {
-					x: 5,
-					y: 66
-				},
-				options: {
-					height: 7,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'BATCH_NR',
-				position: {
-					x: 110,
-					y: 66
-				},
-				options: {
-					height: 7,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'SUPPLIER_ITEM_NR',
-				position: {
-					x: 110,
-					y: 102
-				},
-				options: {
-					height: 11,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			}
-		]
+   {
+      "key": "LABEL_NR",
+      "position": {
+         "x": 5,
+         "y": 21
+      },
+      "options": {
+         "height": 7,
+         "width": 0.7,
+         "displayValue": false,
+         "margin": 0,
+         "format": "CODE39",
+         "lineColor": "#000",
+         "background": "#fff0"
+      }
+   },
+   {
+      "key": "CUSTOMER_ITEM_NR",
+      "position": {
+         "x": 5,
+         "y": 51
+      },
+      "options": {
+         "height": 7,
+         "width": 0.7,
+         "displayValue": false,
+         "margin": 0,
+         "format": "CODE39",
+         "lineColor": "#000",
+         "background": "#fff0"
+      }
+   },
+   {
+      "key": "QUANTITY",
+      "position": {
+         "x": 5,
+         "y": 36
+      },
+      "options": {
+         "height": 7,
+         "width": 0.7,
+         "displayValue": false,
+         "margin": 0,
+         "format": "CODE39",
+         "lineColor": "#000",
+         "background": "#fff0"
+      }
+   },
+   {
+      "key": "SUPPLIER_NR",
+      "position": {
+         "x": 110,
+         "y": 43
+      },
+      "options": {
+         "height": 7,
+         "width": 0.7,
+         "displayValue": false,
+         "margin": 0,
+         "format": "CODE39",
+         "lineColor": "#000",
+         "background": "#fff0"
+      }
+   },
+   {
+      "key": "PACKAGE_NR",
+      "position": {
+         "x": 5,
+         "y": 66
+      },
+      "options": {
+         "height": 7,
+         "width": 0.7,
+         "displayValue": false,
+         "margin": 0,
+         "format": "CODE39",
+         "lineColor": "#000",
+         "background": "#fff0"
+      }
+   },
+   {
+      "key": "BATCH_NR",
+      "position": {
+         "x": 110,
+         "y": 66
+      },
+      "options": {
+         "height": 7,
+         "width": 0.7,
+         "displayValue": false,
+         "margin": 0,
+         "format": "CODE39",
+         "lineColor": "#000",
+         "background": "#fff0"
+      }
+   },
+   {
+      "key": "SUPPLIER_ITEM_NR",
+      "position": {
+         "x": 110,
+         "y": 102
+      },
+      "options": {
+         "height": 11,
+         "width": 0.7,
+         "displayValue": false,
+         "margin": 0,
+         "format": "CODE39",
+         "lineColor": "#000",
+         "background": "#fff0"
+      }
+   }
+]
