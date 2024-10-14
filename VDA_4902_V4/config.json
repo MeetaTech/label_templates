@@ -1,93 +1,93 @@
 [
-			{
-				key: 'LABEL_NR',
-				position: { x: 5, y: 30 },
-				options: {
-					height: 15,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'CUSTOMER_ITEM_NR',
-				position: { x: 5, y: 63 },
-				options: {
-					height: 12,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'QUANTITY',
-				position: { x: 5, y: 89 },
-				options: {
-					height: 13,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'SUPPLIER_NR',
-				position: { x: 5, y: 110 },
-				options: {
-					height: 12,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'PACKAGE_NR',
-				position: { x: 5, y: 130 },
-				options: {
-					height: 13,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'BATCH_NR',
-				position: { x: 110, y: 130 },
-				options: {
-					height: 13,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			},
-			{
-				key: 'SUPPLIER_ITEM_NR',
-				position: { x: 110, y: 102 },
-				options: {
-					height: 11,
-					width: 0.7,
-					displayValue: false,
-					margin: 0,
-					format: 'CODE39',
-					lineColor: '#000',
-					background: '#fff0'
-				}
-			}
-		]
+	{
+		key: 'LABEL_NR',
+		position: { x: 5, y: 30 },
+		options: {
+			height: 15,
+			width: 0.7,
+			displayValue: false,
+			margin: 0,
+			format: 'CODE39',
+			lineColor: '#000',
+			background: '#fff0'
+		}
+	},
+	{
+		key: 'CUSTOMER_ITEM_NR',
+		position: { x: 5, y: 63 },
+		options: {
+			height: 12,
+			width: 0.7,
+			displayValue: false,
+			margin: 0,
+			format: 'CODE39',
+			lineColor: '#000',
+			background: '#fff0'
+		}
+	},
+	{
+		key: 'QUANTITY',
+		position: { x: 5, y: 89 },
+		options: {
+			height: 13,
+			width: 0.7,
+			displayValue: false,
+			margin: 0,
+			format: 'CODE39',
+			lineColor: '#000',
+			background: '#fff0'
+		}
+	},
+	{
+		key: 'SUPPLIER_NR',
+		position: { x: 5, y: 110 },
+		options: {
+			height: 12,
+			width: 0.7,
+			displayValue: false,
+			margin: 0,
+			format: 'CODE39',
+			lineColor: '#000',
+			background: '#fff0'
+		}
+	},
+	{
+		key: 'PACKAGE_NR',
+		position: { x: 5, y: 130 },
+		options: {
+			height: 13,
+			width: 0.7,
+			displayValue: false,
+			margin: 0,
+			format: 'CODE39',
+			lineColor: '#000',
+			background: '#fff0'
+		}
+	},
+	{
+		key: 'BATCH_NR',
+		position: { x: 110, y: 130 },
+		options: {
+			height: 13,
+			width: 0.7,
+			displayValue: false,
+			margin: 0,
+			format: 'CODE39',
+			lineColor: '#000',
+			background: '#fff0'
+		}
+	},
+	{
+		key: 'SUPPLIER_ITEM_NR',
+		position: { x: 110, y: 102 },
+		options: {
+			height: 11,
+			width: 0.7,
+			displayValue: false,
+			margin: 0,
+			format: 'CODE39',
+			lineColor: '#000',
+			background: '#fff0'
+		}
+	}
+]
