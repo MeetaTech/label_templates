@@ -1,86 +1,86 @@
 [
-    {
-        "key": "LABEL_NR",
-        "position": { "x": 5, "y": 110 },
-        "options": {
-            "height": 50,
-            "displayValue": false,
-            "format": "CODE39",
-            "lineColor": "#000",
-            "background": "#fff0",
-            "textAlign": "left"
-        }
-    },
-    {
-        "key": "CUSTOMER_ITEM_NR",
-        "position": { "x": 5, "y": 220 },
-        "options": {
-            "height": 50,
-            "displayValue": false,
-            "format": "CODE39",
-            "lineColor": "#000",
-            "background": "#fff0",
-            "textAlign": "left"
-        }
-    },
-    {
-        "key": "QUANTITY",
-        "position": { "x": 5, "y": 330 },
-        "options": {
-            "height": 50,
-            "displayValue": false,
-            "format": "CODE39",
-            "lineColor": "#000",
-            "background": "#fff0",
-            "textAlign": "left"
-        }
-    },
-    {
-        "key": "SUPPLIER_NR",
-        "position": { "x": 5, "y": 405 },
-        "options": {
-            "height": 50,
-            "displayValue": false,
-            "format": "CODE39",
-            "lineColor": "#000",
-            "background": "#fff0",
-            "textAlign": "left"
-        }
-    },
-    {
-        "key": "PACKAGE_NR",
-        "position": { "x": 5, "y": 485 },
-        "options": {
-            "height": 50,
-            "displayValue": false,
-            "format": "CODE39",
-            "lineColor": "#000",
-            "background": "#fff0",
-            "textAlign": "left"
-        }
-    },
-    {
-        "key": "BATCH_NR",
-        "position": { "x": 400, "y": 485 },
-        "options": {
-            "height": 50,
-            "displayValue": false,
-            "format": "CODE39",
-            "lineColor": "#000",
-            "background": "#fff0",
-            "textAlign": "left"
-        }
-    },
-    {
-        "key": "SUPPLIER_ITEM_NR",
-        "position": { "x": 400, "y": 370 },
-        "options": {
-            "height": 50,
-            "displayValue": false,
-            "format": "CODE39",
-            "lineColor": "#000",
-            "background": "#fff0",
-            "textAlign": "left"
-        }
+  {
+    "key": "LABEL_NR",
+    "position": { "x": 5, "y": 110 },
+    "options": {
+      "height": 50,
+      "displayValue": false,
+      "format": "CODE39",
+      "lineColor": "#000",
+      "background": "#fff0",
+      "textAlign": "left"
     }
+  },
+  {
+    "key": "CUSTOMER_ITEM_NR",
+    "position": { "x": 5, "y": 220 },
+    "options": {
+      "height": 50,
+      "displayValue": false,
+      "format": "CODE39",
+      "lineColor": "#000",
+      "background": "#fff0",
+      "textAlign": "left"
+    }
+  },
+  {
+    "key": "QUANTITY",
+    "position": { "x": 5, "y": 330 },
+    "options": {
+      "height": 50,
+      "displayValue": false,
+      "format": "CODE39",
+      "lineColor": "#000",
+      "background": "#fff0",
+      "textAlign": "left"
+    }
+  },
+  {
+    "key": "SUPPLIER_NR",
+    "position": { "x": 5, "y": 405 },
+    "options": {
+      "height": 50,
+      "displayValue": false,
+      "format": "CODE39",
+      "lineColor": "#000",
+      "background": "#fff0",
+      "textAlign": "left"
+    }
+  },
+  {
+    "key": "PACKAGE_NR",
+    "position": { "x": 5, "y": 485 },
+    "options": {
+      "height": 50,
+      "displayValue": false,
+      "format": "CODE39",
+      "lineColor": "#000",
+      "background": "#fff0",
+      "textAlign": "left"
+    }
+  },
+  {
+    "key": "BATCH_NR",
+    "position": { "x": 400, "y": 485 },
+    "options": {
+      "height": 50,
+      "displayValue": false,
+      "format": "CODE39",
+      "lineColor": "#000",
+      "background": "#fff0",
+      "textAlign": "left"
+    }
+  },
+  {
+    "key": "SUPPLIER_ITEM_NR",
+    "position": { "x": 400, "y": 370 },
+    "options": {
+      "height": 50,
+      "displayValue": false,
+      "format": "CODE39",
+      "lineColor": "#000",
+      "background": "#fff0",
+      "textAlign": "left"
+    }
+  }
 ]

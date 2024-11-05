@@ -1,15 +1,13 @@
-<svg width="800" height="562" font-weight="400" viewBox="0 0 210 148" font-family="sans-serif"
-  xmlns="http://www.w3.org/2000/svg">
-  <g></>
+<!-- trunk-ignore-all(svgo) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="562" font-family="sans-serif" font-weight="400"
+  viewBox="0 0 210 148">
   <g stroke="#000">
-    <path fill="#fff" stroke-width=".265" d="M0 0h210V148H0z" />
-    <path d="M0 46h210" fill="none" stroke-width=".665" />
-    <path
-      d="M0 20h210M104 0v46M104 33h105M140 46.193V33M176 33v13M0 76h210M104 76v72M0 104l104 0M0 123h210M144 123l0-9M104 114h105M104 86h106"
-      fill="none" stroke-width=".265" />
+    <path fill="#fff" stroke-width=".265" d="M0 0h210v148H0z" />
+    <path fill="none" stroke-width=".665" d="M0 46h210" />
+    <path fill="none" stroke-width=".265"
+      d="M0 20h210M104 0v46m0-13h105m-69 13.193V33m36 0v13M0 76h210m-106 0v72M0 104h104M0 123h210m-66 0v-9m-40 0h105M104 86h106" />
   </g>
-  <g font-size="2" stroke-width=".065">
-    <text x="5" y="4">
+  <g stroke-width=".065" font-size="2"><text x="5" y="4">
       (1)
     </text><text x="105" y="4">
       (2)
@@ -45,8 +43,7 @@
       (17)
     </text><text x="106" y="146">
       Warenanhänger VDA 4902, Version 4
-    </text>
-  </g>
+    </text></g>
   <g stroke-width=".065"><text x="6" y="85" font-size="3">
       <tspan x="6" y="9">{{ADDR1}}</tspan>
       <tspan x="6" y="13">{{ADDR2}}</tspan>
@@ -84,13 +81,11 @@
     </text><text x="10" y="146" font-size="2">
       {{SUPPLIER_ADDR}}
     </text></g>
-  <g font-size="2" stroke-width=".065">
-    <text x="8" y="4">
+  <g stroke-width=".065" font-size="2"><text x="8" y="4">
       Warenempfänger
     </text><text x="108" y="4">
       Abladestelle - Lagerort - Verwendungsschlüssel
-    </text>
-    <text x="8" y="23">
+    </text><text x="8" y="23">
       Lieferschein-Nr (N)
     </text><text x="108" y="23">
       Lieferantenanchrift (Kurzname, Werk, PLZ, Ort)
@@ -118,6 +113,5 @@
       Packstück-Nr (S)
     </text><text x="109" y="126.5">
       Chargen-Nr (H)
-    </text>
-  </g>
+    </text></g>
 </svg>
