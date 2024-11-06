@@ -1,5 +1,6 @@
 <svg width="400" height="300" viewBox="0 0 106 80" version="1.1" xml:space="preserve" font-family="Inconsolata"
   font-size="7px" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="106" height="80" fill="white" />
   <g id="layout" stroke-width="0.5" stroke="black">
     <line x1="1" y1="20" x2="105" y2="20" />
     <line x1="1" y1="60" x2="105" y2="60" />
@@ -10,15 +11,15 @@
     <text x="2" y="77">Inh.:</text>
     <text x="2" y="38" font-size="4px">vorh.AG:</text>
     <text x="2" y="54" font-size="4px">nachf.AG:</text>
-    <text x="2" y="47">akt. AG:</text>
+    <text x="2" y="47" font-size="5px">akt. AG:</text>
   </g>
   <g id="variabels">
     <text x="1" y="7" font-size="9px">{{ARTICLE_NR}}</text>
     <text x="1" y="16" font-size="6px">{{DESCRIPTION}}</text>
     <text x="1" y="30">{{FA_NR}}</text>
-    <text x="60" y="38" text-anchor="end" font-size="4px"> {{LAST_JOB}}</text>
-    <text x="60" y="47" text-anchor="end">{{CURRENT_JOB}}</text>
-    <text x="60" y="54" text-anchor="end" font-size="4px"> {{NEXT_JOB}}</text>
+    <text x="65" y="38" text-anchor="end" font-size="4px"> {{LAST_JOB}}</text>
+    <text x="65" y="47" text-anchor="end" font-size="6px">{{CURRENT_JOB}}</text>
+    <text x="65" y="54" text-anchor="end" font-size="4px"> {{NEXT_JOB}}</text>
     <text x="100" y="67" text-anchor="end">{{N_TOTAL}}</text>
     <text x="50" y="77" text-anchor="end">{{N_CONTENT}}</text>
     <text x="100" y="77" text-anchor="end">{{N_BOXES}}</text>
