@@ -7,7 +7,10 @@
       "y": 25
     },
     "options": {
-      "correctLevel": "QRCode.CorrectLevel.H"
+      "correctLevel": "QRCode.CorrectLevel.H",
+      "version": 3,
+      "margin": 0,
+      "scale": 3
     }
   }
 ]
