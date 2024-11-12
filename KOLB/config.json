@@ -1,7 +1,7 @@
 [
   {
     "key": "SUPPLIER_ITEM_NR",
-    "type": "3d",
+    "type": "2d",
     "position": {
       "x": 110,
       "y": 43

@@ -1,7 +1,7 @@
 [
   {
     "key": "LABEL_NR",
-    "type": "2d",
+    "type": "1d",
     "position": {
       "x": 5,
       "y": 30
@@ -18,7 +18,7 @@
   },
   {
     "key": "CUSTOMER_ITEM_NR",
-    "type": "2d",
+    "type": "1d",
     "position": {
       "x": 5,
       "y": 63
@@ -35,7 +35,7 @@
   },
   {
     "key": "QUANTITY",
-    "type": "2d",
+    "type": "1d",
     "position": {
       "x": 5,
       "y": 89
@@ -52,7 +52,7 @@
   },
   {
     "key": "SUPPLIER_NR",
-    "type": "2d",
+    "type": "1d",
     "position": {
       "x": 5,
       "y": 110
@@ -69,7 +69,7 @@
   },
   {
     "key": "PACKAGE_NR",
-    "type": "2d",
+    "type": "1d",
     "position": {
       "x": 5,
       "y": 130
@@ -86,7 +86,7 @@
   },
   {
     "key": "BATCH_NR",
-    "type": "2d",
+    "type": "1d",
     "position": {
       "x": 110,
       "y": 130
@@ -103,7 +103,7 @@
   },
   {
     "key": "SUPPLIER_ITEM_NR",
-    "type": "2d",
+    "type": "1d",
     "position": {
       "x": 110,
       "y": 102
