@@ -3,12 +3,12 @@
     "key": "ARTICLE_NR",
     "type": "2d",
     "position": {
-      "x": 110,
-      "y": 43
+      "x": 40,
+      "y": 40
     },
     "options": {
-      "width": 128,
-      "height": 128,
+      "width": 30,
+      "height": 30,
       "colorDark": "#000000",
       "colorLight": "#ffffff",
       "correctLevel": "QRCode.CorrectLevel.H"
