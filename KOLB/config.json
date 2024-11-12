@@ -3,8 +3,8 @@
     "key": "ARTICLE_NR",
     "type": "2d",
     "position": {
-      "x": 70,
-      "y": 30
+      "x": 75,
+      "y": 25
     },
     "options": {
       "correctLevel": "QRCode.CorrectLevel.H"
