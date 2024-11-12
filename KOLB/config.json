@@ -1,1 +1,19 @@
-{}
+[
+  {
+    "key": "SUPPLIER_ITEM_NR",
+    "type": "3d",
+    "position": {
+      "x": 110,
+      "y": 43
+    },
+    "options": {
+      "height": 7,
+      "width": 0.7,
+      "displayValue": false,
+      "margin": 0,
+      "format": "CODE39",
+      "lineColor": "#000",
+      "background": "#fff0"
+    }
+  }
+]

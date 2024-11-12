@@ -1,6 +1,7 @@
 [
   {
     "key": "LABEL_NR",
+    "type": "2d",
     "position": { "x": 5, "y": 110 },
     "options": {
       "height": 50,
@@ -13,6 +14,7 @@
   },
   {
     "key": "CUSTOMER_ITEM_NR",
+    "type": "2d",
     "position": { "x": 5, "y": 220 },
     "options": {
       "height": 50,
@@ -25,6 +27,7 @@
   },
   {
     "key": "QUANTITY",
+    "type": "2d",
     "position": { "x": 5, "y": 330 },
     "options": {
       "height": 50,
@@ -37,6 +40,7 @@
   },
   {
     "key": "SUPPLIER_NR",
+    "type": "2d",
     "position": { "x": 5, "y": 405 },
     "options": {
       "height": 50,
@@ -49,6 +53,7 @@
   },
   {
     "key": "PACKAGE_NR",
+    "type": "2d",
     "position": { "x": 5, "y": 485 },
     "options": {
       "height": 50,
@@ -61,6 +66,7 @@
   },
   {
     "key": "BATCH_NR",
+    "type": "2d",
     "position": { "x": 400, "y": 485 },
     "options": {
       "height": 50,
@@ -73,6 +79,7 @@
   },
   {
     "key": "SUPPLIER_ITEM_NR",
+    "type": "2d",
     "position": { "x": 400, "y": 370 },
     "options": {
       "height": 50,
