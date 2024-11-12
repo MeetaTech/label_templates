@@ -9,7 +9,7 @@
     "options": {
       "correctLevel": "QRCode.CorrectLevel.H",
       "version": 3,
-      "margin": 0,
+      "margin": 1,
       "scale": 3
     }
   }
